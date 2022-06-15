@@ -26,3 +26,9 @@ public:
        return s; 
     }
 };
+
+
+//APPROACH
+// 1.Take two pointers i and j at first and last index and take two flag pointers as true
+//     2. Check for both if any is vowel that put flag to false
+//         3.Check if both flag are false then swap otherwise if i is false then j-- if j is false then i++;
